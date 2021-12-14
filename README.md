@@ -1,5 +1,8 @@
 # System Inspector
 
+## Description
+- A Unix utility that inspects the system it runs on and creates a summarized report for the user. Similar to the `top` command from a shell.
+
 ## Usage
 ```bash
 make
@@ -16,30 +19,14 @@ Options:
     * -o              Operate in one-shot mode (no curses or live updates)
 ```
 
-## Description
-
-This program inspects the system it runs on and creates a summarized report for the user using the proc pseudo file system. It is similar to the top command, giving formatted summary about the system information.
-
-## Command options
-
-```
-Usage: ./inspector [-ho] [-i interval] [-p procfs_dir]
-
-Options:
-    * -h              Display help/usage information
-    * -i interval     Set the update interval (default: 1000ms)
-    * -p procfs_dir   Set the expected procfs mount point (default: /proc)
-    * -o              Operate in one-shot mode (no curses or live updates)
-```
-
 ## Included files
 
-* Makefile: Used to compile and run the program.
-* inspector.c: Driver of the program.
-* procfs.c: Getting system information.
-* display.c: Displaying the system information.
-* util.c: Includes helper functions for other files.
-* Header files of procfs.c, display.c, util.c.
+- `Makefile`: Used to compile and run the program.
+- inspector.c: Driver of the program.
+- procfs.c: Getting system information.
+- display.c: Displaying the system information.
+- util.c: Includes helper functions for other files.
+- Header files of procfs.c, display.c, util.c.
 
 ## Testing
 
