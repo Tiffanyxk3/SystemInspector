@@ -20,7 +20,6 @@ Options:
 ```
 
 ## Included files
-
 - `Makefile`: Used to compile and run the program.
 - `inspector.c`: Driver of the program.
 - `procfs.c`: Getting system information.
@@ -29,13 +28,6 @@ Options:
 - `procfs.h`, `display.h`, `util.h`: Header files.
 
 ## Testing
-
-To compile and run:
-```
-make
-./inspector
-```
-
 To execute the test cases, use `make test`. To pull in updated test cases, run `make testupdate`. You can also run a specific test case instead of all of them:
 
 ```
