@@ -22,11 +22,11 @@ Options:
 ## Included files
 
 - `Makefile`: Used to compile and run the program.
-- inspector.c: Driver of the program.
-- procfs.c: Getting system information.
-- display.c: Displaying the system information.
-- util.c: Includes helper functions for other files.
-- Header files of procfs.c, display.c, util.c.
+- `inspector.c`: Driver of the program.
+- `procfs.c`: Getting system information.
+- `display.c`: Displaying the system information.
+- `util.c`: Includes helper functions for other files.
+- `procfs.h`, `display.h`, `util.h`: Header files.
 
 ## Testing
 
