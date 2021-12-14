@@ -1,12 +1,19 @@
-# Project 1: System Inspector
+# System Inspector
 
-See: https://www.cs.usfca.edu/~mmalensek/cs326/assignments/project-1.html 
-
-To compile and run:
-
+## Usage
 ```bash
 make
 ./inspector
+```
+Command options:
+```
+Usage: ./inspector [-ho] [-i interval] [-p procfs_dir]
+
+Options:
+    * -h              Display help/usage information
+    * -i interval     Set the update interval (default: 1000ms)
+    * -p procfs_dir   Set the expected procfs mount point (default: /proc)
+    * -o              Operate in one-shot mode (no curses or live updates)
 ```
 
 ## Description
